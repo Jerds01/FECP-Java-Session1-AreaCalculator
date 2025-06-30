@@ -91,7 +91,6 @@ class MainTest {
             System.setIn(originalIn);
             System.setOut(originalOut);
         }
-
         return testOut.toString();
     }
 
